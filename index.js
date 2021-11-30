@@ -58,5 +58,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`HELLO EXPRESS:${port}`)
+    console.log(`HELLO Express:${port}`)
 })
