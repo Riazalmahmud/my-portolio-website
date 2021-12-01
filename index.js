@@ -54,7 +54,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('EXPESS INSTALL!')
+    res.send('hello express i am testing from my pc')
 })
 
 app.listen(port, () => {
